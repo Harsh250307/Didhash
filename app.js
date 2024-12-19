@@ -10,7 +10,7 @@ app.use(bodyParser.json());
 app.use(cors());
 
 // Replace 'your-mongodb-connection-string' with the actual connection string
-mongoose.connect('your-mongodb-connection-string', {
+mongoose.connect('mongodb+srv://harshcad07:Abc1234@harsh07.y5e0e.mongodb.net/?retryWrites=true&w=majority&appName=Harsh07', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
 })
